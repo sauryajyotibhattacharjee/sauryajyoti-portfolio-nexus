@@ -41,12 +41,6 @@ const Hero: React.FC = () => {
                   Contact Me
                 </a>
               </Button>
-              
-              <Button asChild variant="outline" className="bg-transparent border border-white/30 text-white hover:bg-white/10">
-                <a href="https://sauryajyotibhattacharjee.github.io/SAURAPORTFOLIO" target="_blank" rel="noopener noreferrer">
-                  Visit Original Portfolio
-                </a>
-              </Button>
             </div>
             
             <div className="flex space-x-4">

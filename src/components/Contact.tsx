@@ -69,17 +69,8 @@ const Contact: React.FC = () => {
               <h3 className="font-quantico text-xl mb-6 text-primary">PORTFOLIO</h3>
               
               <p className="mb-4">
-                Check out my original portfolio for additional projects and information:
+                Interested in working together? Feel free to reach out via email or connect with me on social media.
               </p>
-              
-              <a 
-                href="https://sauryajyotibhattacharjee.github.io/SAURAPORTFOLIO" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="inline-block w-full bg-primary py-3 px-6 text-center rounded text-primary-foreground font-quantico hover:bg-primary/90 transition-colors"
-              >
-                Visit Original Portfolio
-              </a>
               
               <div className="mt-8 pt-6 border-t border-white/10">
                 <h4 className="font-quantico text-lg mb-4">Connect With Me</h4>
