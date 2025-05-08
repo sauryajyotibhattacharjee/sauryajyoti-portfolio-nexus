@@ -8,6 +8,7 @@ const Footer: React.FC = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
             <span className="font-quantico text-xl font-bold text-primary">SB<span className="text-white">_NEXUS</span></span>
+            <div className="mt-1 bg-primary/20 h-px w-24"></div>
           </div>
           
           <div className="text-center md:text-right">
@@ -18,9 +19,11 @@ const Footer: React.FC = () => {
         </div>
         
         <div className="mt-6 pt-6 border-t border-white/10 text-center">
-          <p className="text-sm opacity-70">
-            B.Tech Computer Science Student at SRM University
-          </p>
+          <div className="inline-block px-4 py-1 border border-primary/30 bg-secondary rounded">
+            <p className="text-sm opacity-80 font-quantico">
+              B.Tech Computer Science Student at SRM University
+            </p>
+          </div>
         </div>
       </div>
     </footer>

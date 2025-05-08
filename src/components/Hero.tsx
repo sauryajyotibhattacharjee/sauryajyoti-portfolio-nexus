@@ -8,13 +8,17 @@ const Hero: React.FC = () => {
   return (
     <section 
       id="home" 
-      className="relative min-h-screen flex items-center military-bg"
+      className="relative min-h-screen flex items-center"
     >
-      <div className="absolute inset-0 bg-gradient-to-r from-secondary/90 to-secondary/70"></div>
+      <div className="absolute inset-0 bg-gradient-to-r from-secondary/95 to-secondary/85"></div>
 
       <div className="container mx-auto px-4 md:px-6 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           <div className="lg:col-span-7 fade-in-up">
+            <div className="inline-block px-4 py-1 mb-4 border border-primary/40 bg-secondary/60 rounded-sm">
+              <p className="text-sm font-quantico tracking-widest text-primary">DEFENSE TECHNOLOGY SPECIALIST</p>
+            </div>
+            
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-quantico mb-4 text-shadow">
               SAURAJYOTI <span className="text-primary">BHATTACHARJEE</span>
             </h1>
@@ -87,6 +91,9 @@ const Hero: React.FC = () => {
               <div className="absolute -bottom-4 -right-4 bg-secondary px-4 py-2 border border-primary/50">
                 <p className="font-quantico text-sm">CGPA: 9.33</p>
               </div>
+              
+              <div className="absolute -top-2 -left-2 w-20 h-20 border-t-2 border-l-2 border-primary/50"></div>
+              <div className="absolute -bottom-2 -right-2 w-20 h-20 border-b-2 border-r-2 border-primary/50"></div>
             </div>
           </div>
         </div>
